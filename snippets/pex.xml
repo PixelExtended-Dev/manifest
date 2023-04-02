@@ -8,9 +8,6 @@
   <remote name="ralf"
           fetch="https://github.com/ralf979"
           revision="trece" />
-  
-  <remote name="github"
-          fetch="https://github.com" />
 
 <!-- Custom repos -->
   <project path="manifest" name="manifest" remote="pex" revision="trece" />
