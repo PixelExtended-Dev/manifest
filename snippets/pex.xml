@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="pex"
+          fetch="https://github.com/PixelExtended-Dev"
+          revision="thirteen-plus" />
+
+  <remote name="ralf"
+          fetch="https://github.com/ralf979"
+          revision="trece" />
+  
+  <remote name="github"
+          fetch="https://github.com" />
+
+<!-- Custom repos -->
+  <project path="manifest" name="manifest" remote="pex" revision="trece" />
+  <project path="vendor/aosp" name="vendor_aosp" remote="pex" /> 
+  <project path="frameworks/base" name="frameworks_base" remote="pex" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pex" />
+  <project path="packages/apps/Pextension" name="Fan-Edition_Settings" remote="pex" revision="trece"/>
+
+<!-- Local Manifest -->
+  <project path="device/oneplus/lemonade" name="device_oneplus_lemonade" remote="ralf"/>
+  <project path="device/oneplus/sm8350-common" name="device_oneplus_sm8350-common" remote="ralf" /> 
+  <project path="kernel/oneplus/sm8350" name="kernel_oneplus_sm8350" remote="ralf" revision="trece_XT"/>
+  <project path="hardware/oplus" name="android_hardware_oplus" remote="ralf" />
+  <project path="vendor/oneplus/lemonade" name="vendor_oneplus_lemonade" remote="ralf"/>
+  <project path="vendor/oneplus/sm8350-common" name="vendor_oneplus_sm8350-common" remote="ralf" />
+  <project path="vendor/oneplus-firmware" name="android_vendor_oneplus_firmware" remote="ralf" />
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master"/>
+</manifest>
