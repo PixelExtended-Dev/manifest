@@ -15,6 +15,8 @@
   <project path="frameworks/base" name="frameworks_base" remote="pex" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pex" />
   <project path="packages/apps/Pextension" name="Fan-Edition_Settings" remote="pex" revision="trece"/>
+  <project path="vendor/overlays" name="vendor_overlays" remote="pex" revision="trece"/>
+  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pex" revision="thirteen"/>
 
 <!-- Local Manifest -->
   <project path="device/oneplus/lemonade" name="device_oneplus_lemonade" remote="ralf"/>
