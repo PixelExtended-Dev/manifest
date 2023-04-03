@@ -17,7 +17,7 @@
   <project path="packages/apps/Pextension" name="Fan-Edition_Settings" remote="pex" revision="trece"/>
   <project path="vendor/overlays" name="vendor_overlays" remote="pex" revision="trece"/>
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pex" revision="thirteen"/>
-
+  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="pex" revision="thirteen-plus" />
 <!-- Local Manifest -->
   <project path="device/oneplus/lemonade" name="device_oneplus_lemonade" remote="ralf"/>
   <project path="device/oneplus/sm8350-common" name="heisinbug/device_oneplus_sm8350-common" remote="github" revision="trece" /> 
